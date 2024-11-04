@@ -53,6 +53,7 @@ ul li a:hover{
     color: rgb(0, 132, 255);
 }
 .main{
+    text-decoration:none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,11 +242,7 @@ button:hover{
         padding: 20px;
         gap: 20px;
         border-radius: 4px;
-    }
-    .main a{
-        text-decoration:none;
-    }
-        
+    }      
 }
 
 @media screen and (max-width:600px){
